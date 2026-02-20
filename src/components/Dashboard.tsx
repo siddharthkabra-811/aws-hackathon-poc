@@ -80,7 +80,7 @@ function Dashboard() {
     <div className="dashboard-container">
       <div className="form-card">
         <div className="form-header">
-          <h1>Interviewer Information</h1>
+          <h1>Interviewee Information</h1>
           <p className="subtitle">Enter details for the interview session</p>
         </div>
 
@@ -103,7 +103,7 @@ function Dashboard() {
 
           <div className="form-group">
             <label htmlFor="email">
-              Interviewer Email <span className="required">*</span>
+              Interviewee Email <span className="required">*</span>
             </label>
             <input
               type="email"
